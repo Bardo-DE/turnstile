@@ -13,7 +13,7 @@ turnstile closes the node to everyone but itself and makes devices for two known
 | keycap (Mac keyboard mapping) | a full keyboard with its lights, the pointer half of a combo device | handed: turnstile makes the device and passes keycap its file descriptor |
 
 Who is calling is decided by the kernel (the process behind the socket, held by a pidfd) and a
-root-owned table of desktop programs read through [peephole](https://github.com/PoHsuanLai/peephole),
+root-owned table of desktop programs read through [peephole](https://github.com/Bardo-DE/peephole),
 not by anything the caller says. A kind of device is only made for the program it belongs to.
 
 ## Crates

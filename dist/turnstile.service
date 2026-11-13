@@ -8,7 +8,7 @@
 # process's memory, a read-only file system, and /dev/uinput as the only device.
 [Unit]
 Description=turnstile: virtual input devices for palmrest and keycap
-Documentation=https://github.com/PoHsuanLai/turnstile
+Documentation=https://github.com/Bardo-DE/turnstile
 Requires=turnstile.socket
 After=turnstile.socket
 
